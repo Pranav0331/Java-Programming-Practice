@@ -6,7 +6,8 @@ git remote add origin https://github.com/Pranav0331/Java-Programming-Practice.gi
 git remote -v  
 git push -u origin main -->
 
+git status
 
-<!git add .
+<!-- git add .
 git commit -m " "
-git push--  -->
+git push  -->
