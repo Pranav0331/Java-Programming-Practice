@@ -11,3 +11,9 @@ git status
 <!-- git add .
 git commit -m " "
 git push  -->
+
+
+
+<!-- git fetch origin
+git log main..origin/main --oneline
+git diff main..origin/main -->
