@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "a7_combinedLenght",
+            "request": "launch",
+            "mainClass": "a7_combinedLenght",
+            "projectName": "VS .JAVA _9a28ee4b"
+        },
+        {
+            "type": "java",
             "name": "a3_marks",
             "request": "launch",
             "mainClass": "a3_marks",

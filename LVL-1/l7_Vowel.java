@@ -6,7 +6,7 @@ public class l7_Vowel {
         char ch = sc.next().charAt(0);
         switch (ch) {
             case 'a' :
-            case  'e':
+            case 'e':
             case 'i':
             case 'o':
             case 'u':
