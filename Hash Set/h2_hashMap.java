@@ -14,6 +14,12 @@ public class h2_hashMap {
 
         System.out.println(map);
 
+        if(map.containsKey("India")){
+            System.out.println("Present");
+        }else{
+            System.out.println("Not Present");
+        }
+
     }
     
 }
