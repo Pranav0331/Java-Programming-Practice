@@ -13,6 +13,8 @@ public class h2_hashMap {
         map.put("Napal",100);
 
         System.out.println(map);
+        System.out.println(map.get("India"));
+        System.out.println(map.get("UK"));
 
         if(map.containsKey("India")){
             System.out.println("Present");
