@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class h1_Create {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         HashSet<Integer>set=new HashSet<>();
         set.add(1);
         set.add(2);
