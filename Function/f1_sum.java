@@ -5,7 +5,8 @@ public class f1_sum {
         return sum;
         
     }
-    public static void main(String[] args) {
+    //public static void main(String[] args) {
+    void main() {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the 2 number");
         int a=sc.nextInt();

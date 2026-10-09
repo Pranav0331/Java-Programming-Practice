@@ -1,0 +1,42 @@
+char ch = sc.next().charAt(0);
+
+String — complete line
+String s = sc.nextLine();
+
+String — one word
+String s = sc.nextLine();
+
+Array
+int[] arr = new int[5];
+int[] arr = {10, 20, 30, 40};
+Arrays.sort(arr);
+Arrays.sort(array, start, end, Collections.reverseOrder());
+
+2D-Array
+int[][] arr = new int[3][4];
+int[][] arr = {
+    {1, 2, 3},
+    {4, 5, 6}
+};
+
+
+list
+ArrayList<Integer> list = new ArrayList<>();
+
+
+hasset
+HashSet<Integer> set = new HashSet<>();
+HashMap<Integer, Integer> map = new HashMap<>();
+
+Stack
+Stack<Integer> stack = new Stack<>();
+
+Queue
+Queue<Integer> q = new LinkedList<>();
+q.offer(10);//Add:
+q.peek();//Front:
+q.poll();//Remove:
+
+String
+String s = "hello";
+
