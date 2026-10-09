@@ -36,6 +36,43 @@ Queue<Integer> q = new LinkedList<>();
 q.offer(10);//Add:
 q.peek();//Front:
 q.poll();//Remove:
+q.isEmpty();//Check empty
+q.size();//Size
+
+
+Double-Ended Queue
+Deque<Integer> dq = new ArrayDeque<>();
+dq.offerFirst(10);//Add front
+dq.offerLast(20);//Add back
+dq.pollFirst();//Remove front
+dq.pollLast();//Remove back
+dq.peekFirst();//Front element
+dq.peekLast();//Last element
+
+Priority Queue (Min Heap)
+PriorityQueue<Integer> pq = new PriorityQueue<>();
+pq.offer(30);
+
+
+Set
+Set<Integer> set = new HashSet<>();
+set.add(10);
+Method	      Kya karta hai?	                   Example
+add(x)	      Element add karta hai	                set.add(10);
+contains(x)	  Check karta hai element hai ya nahi	set.contains(10);
+remove(x)	   Element remove karta hai	            set.remove(10);
+size()	      Total unique elements	                set.size();
+isEmpty()	  Set empty hai ya nahi	                set.isEmpty();
+clear()	      Saare elements remove	                set.clear();
+
+HashSet initialize
+HashSet<Integer> set = new HashSet<>();
+LinkedHashSet<Integer> b = new LinkedHashSet<>();
+TreeSet<Integer> c = new TreeSet<>();
+
+
+MAP
+HashMap<Integer, String> map = new HashMap<>();
 
 String
 String s = "hello";
